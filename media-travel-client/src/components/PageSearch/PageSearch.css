@@ -1,0 +1,27 @@
+#pageSearch {
+    margin: 5vh auto 0;
+}
+
+.pageSearchNav .navItem {
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    background: #00BFA6;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pageSearchNav .navItem:hover {
+    background-color: #fff;
+    color: #00Bfa6;
+}
+
+
+@media (max-width: 768px){
+    .pageSearchNav .navItem{
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}

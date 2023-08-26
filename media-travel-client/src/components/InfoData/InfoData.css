@@ -1,0 +1,45 @@
+.info {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+small {
+    transition: 0.3s;
+}
+
+small:hover {
+    color: #00BFA6;
+}
+
+ .imageInfo {
+    width: 100px !important;
+    height: 100px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.info h4 {
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    color: #00BFA6;
+}
+
+.info p {
+    font-size: 1.077rem;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+ a{
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    .info {
+        margin: 0.8rem;
+    }
+}

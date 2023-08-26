@@ -1,0 +1,21 @@
+.aboutPlane {
+    width: 100%;
+}
+
+.aboutPlaneDes h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.aboutPlaneDes p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    background-color: #00BFA6!important;
+}
+
+.progressHeader {
+    margin-top: 1rem;
+}

@@ -1,0 +1,53 @@
+.aboutTeam {
+    padding: 6rem 0 5rem;
+}
+.teamCard {
+    padding: 2rem 0;
+}
+.teamCard h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+.teamCard p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    color: #999;
+}
+.aboutSocial {
+    margin: 0 0.4rem;
+    color: #999;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.aboutSocial:hover {
+    color: #00BFA6;
+}
+
+.teamImg {
+    position: relative;
+}
+.teamImg h6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.4s;
+    color: transparent;
+}
+
+.teamCard:hover h6 {
+    background: rgba(0, 191, 166, 0.514);
+    color: #fff;
+}
+.teamCard:hover h5 {
+    color: #00BFA6;
+}

@@ -1,0 +1,86 @@
+#statusBtn {
+    border: none;
+    outline: none;
+}
+#expired {
+    color: white;
+    background: rgb(255 78 96);
+}
+#expired:hover{
+    background: rgb(228 72 88);
+}
+#booked {
+    color: white;
+    background: rgb(73 146 255);
+}
+#booked:hover{
+    background: #4185e2;
+}
+#checked {
+    color: white;
+    background: rgb(31 204 123);
+}
+#checked:hover{
+    background: rgb(31 177 109);
+}
+.dropdown-menu{
+    padding: 0px!important;
+    border: 1px solid transparent!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#dropdown-basic-button .btn {
+    border: none;
+    box-shadow: none;
+}
+
+.orderData,
+.orderUser,
+.orderBooked,
+.orderChecked,
+.orderExpired {
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 0.6rem;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.orderData h5,
+.orderUser h5,
+.orderBooked h5,
+.orderChecked h5,
+.orderExpired h5{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+}
+
+.orderData h5 {
+    background: #FFD620;
+}
+.orderUser h5 {
+    background: #00BFA6;
+}
+.orderBooked h5 {
+    background: rgb(73 146 255);
+}
+.orderChecked h5 {
+    background: rgb(31 204 123);
+}
+.orderExpired h5 {
+    background: rgb(255 78 96);
+}
+
+.orderUser h4,
+.orderBooked h4,
+.orderChecked h4,
+.orderExpired h4 {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.2rem 1.5rem;
+}

@@ -1,0 +1,32 @@
+.colorHighLight {
+    color: #2DD1C9;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.69rem!important;
+    padding-left: 0.69rem!important;
+}
+
+.navLogBtn {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    transition: .4s;
+    background-color: #00BFA6;
+}
+
+.navLogBtn:hover {
+    background-color: #00AE97;
+}
+
+.navPop {
+    margin: -0.2rem 0 0 -0.7rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #00BFA6;
+}

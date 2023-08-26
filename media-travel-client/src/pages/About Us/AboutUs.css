@@ -1,0 +1,44 @@
+.banner {
+    height: 300px;
+    background-color: #eff2f7;
+}
+
+.banner h3{
+    font-weight: 700;
+    color: #00BFA6 ;
+    font-family: sans-serif;
+}
+
+.aboutInfo .secHeader {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.aboutInfo .secParagrap {
+    font-size: 1.1rem;
+}
+
+
+@media (max-width: 767px) {
+    .banner {
+        height: 150px;
+    }
+    .aboutOffer {
+        padding: 3rem 0;
+    }
+    .aboutOfferContainer  {
+        padding: 0;
+        border: none;
+        margin: 1rem 0;
+    }
+    .aboutPlaneDes  {
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .teamCard {
+        text-align: center;
+        width: 100%;
+        margin: 0.5rem auto;
+        background: #ecfffd;
+    }
+}

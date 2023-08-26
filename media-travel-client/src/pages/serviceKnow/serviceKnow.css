@@ -1,0 +1,121 @@
+.serviceKnow .blog-content img {
+    width: 100%;
+    min-height: 300px;
+    display: block;
+}
+.serviceKnow .about-content img {
+    width: 100%;
+    min-height: 300px;
+    display: block;
+}
+
+.serviceKnow .containerService {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.serviceKnow .title {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.serviceKnow .blog {
+    background: #f9f9f9;
+    padding: 4.5rem 0;
+}
+
+.serviceKnow .blog-content {
+    margin: 2rem 0;
+}
+
+.serviceKnow .blog-img {
+    position: relative;
+}
+
+.serviceKnow .blog-img span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: var(--exDark);
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.6rem;
+}
+
+.serviceKnow .blog-text {
+    margin: 2.2rem 0;
+    padding: 0 1rem;
+}
+
+.serviceKnow .blog-text span {
+    font-weight: 300;
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+.serviceKnow .blog-text h2 {
+    font-family: var(--Playfair);
+    padding: 1rem 0;
+    font-size: 1.65rem;
+    font-weight: 500;
+}
+
+.serviceKnow .blog-text p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    padding-bottom: 1.2rem;
+}
+
+.serviceKnow .blog-text a {
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--dark);
+    display: inline-block;
+    background: var(--dark);
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+    transition: all 0.5s ease;
+}
+
+.serviceKnow .blog-text a:hover {
+    background: var(--exDark);
+}
+
+.serviceKnow .about {
+    padding: 4.5rem 0;
+}
+
+.serviceKnow .about-text {
+    margin: 2rem 0;
+}
+
+.serviceKnow .about-text>p {
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+
+    .serviceKnow .blog-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .serviceKnow .blog-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .serviceKnow .about-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        /* align-items: center; */
+    }
+}

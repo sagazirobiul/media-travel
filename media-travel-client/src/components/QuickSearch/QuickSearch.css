@@ -1,0 +1,60 @@
+#quickSearch {
+    margin: 15vh auto 5rem;
+}
+
+.hBtnWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hSearchBtn {
+    text-transform: capitalize;
+    background-color:#00BFA6;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    border: none;
+    margin-top: 1.5rem;
+    width: 100%;
+    transition: 0.3s;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hSearchBtn:hover {
+    background-color:#00a18c;
+}
+
+.quickSearchForm {
+    background-color: #fff;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.quickSearchNav .navItem {
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    background: #00BFA6;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.quickSearchNav .navItem:hover {
+    background-color: #fff;
+    color: #00Bfa6;
+}
+.quickSearchNav a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .quickSearchNav .navItem{
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}

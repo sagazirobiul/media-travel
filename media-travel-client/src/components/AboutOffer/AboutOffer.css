@@ -1,0 +1,27 @@
+.aboutOffer {
+    padding: 5rem 0;
+}
+.aboutOfferItem{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.aboutOfferItem:hover {
+    color: #00BFA6;
+}
+.aboutOfferIcon {
+    font-size: 1.2rem;
+    color: #00BFA6;
+}
+
+.aboutOfferItem h5,
+.aboutOfferDes {
+    font-size: 1rem;
+}
+.aboutOfferDes {
+    padding-top: 0;
+}
+
+.aboutOfferContainer {
+    border-right: 3px solid #00BFA6;
+    padding-right: 0.7rem;
+}

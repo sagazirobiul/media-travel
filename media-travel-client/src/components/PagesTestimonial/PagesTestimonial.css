@@ -1,0 +1,10 @@
+.pg-slider{
+    position: relative;
+    padding: 25px 20px 65px;
+    background: #01BFA6;
+    border-top: 5px solid #01726a;
+    margin-bottom: 30px;
+}
+.pg-slider small {
+    color: #fff;
+}

@@ -1,0 +1,13 @@
+.line{
+    font-weight: 600;
+    font-size: 18px;
+    color: #01726a;
+    border-bottom: 2px solid #01726a;
+    padding-bottom: 9px;
+}
+
+.booking-row label {
+    color: #434343;
+    font-size: 14px;
+    margin-top: 8px;
+}

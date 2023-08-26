@@ -1,0 +1,44 @@
+[
+    {
+        "img": "https://i.ibb.co/xGgrjgk/cars01.jpg",
+        "title": "SMART FORFOUR",
+        "version": "1.0",
+        "rent": 24.00,
+        "perDay": "per/Day"
+    },
+    {
+        "img": "https://i.ibb.co/g61v2Fp/cars02.jpg",
+        "title": "FIAT 500",
+        "version": "1.2",
+        "rent": 25.00,
+        "perDay": "per/Day"
+    },
+    {
+        "img": "https://i.ibb.co/y69Kzg2/cars03.jpg",
+        "title": "FIAT PANDA",
+        "version": "1.2",
+        "rent": 26.00,
+        "perDay": "per/Day"
+    },
+    {
+        "img": "https://i.ibb.co/tKTpLws/cars04.jpg",
+        "title": "MERCEDES BENZ",
+        "version": "C200",
+        "rent": 68.00,
+        "perDay": "per/Day"
+    },
+    {
+        "img": "https://i.ibb.co/kDtQR9t/cars05.jpg",
+        "title": "MERCEDES BENZ",
+        "version": "E200",
+        "rent": 75.00,
+        "perDay": "per/Day"
+    },
+    {
+        "img": "https://i.ibb.co/fvs5Bg0/cars06.jpg",
+        "title": "AUDI A4",
+        "version": "1.2",
+        "rent": 75.00,
+        "perDay": "per/Day"
+    }
+]

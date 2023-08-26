@@ -1,0 +1,97 @@
+.pakageSec {
+    padding: 5rem 0;
+    margin-top: 2rem;
+}
+
+.bg{
+    background-image: url(https://demo.gridgum.com/templates/Travel-agency/images/parallax1.jpg);
+    height: 70%;
+}
+.text1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff799;
+}
+.text2{
+    padding-top: 10px;
+    color: #fff799;
+    font-size: 18px;
+}
+.text2 strong {
+    font-size: 30px;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.packageButton {
+    font-size: 25px;
+    width: 8em;
+    color: #fff799;
+    border-left: 0.08em solid;
+    position: relative;
+    margin-top: 0.8em;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.packageButton::before,
+.packageButton::after
+ {
+    content: '';
+    position: absolute;
+    width: inherit;
+    border-left: inherit;
+    z-index: -1;
+}
+
+.packageButton::before {
+    height: 80%;
+    top: 10%;
+    left: calc(-0.15em - 0.08em * 2);
+    filter: brightness(0.8);
+}
+
+.packageButton::after {
+    height: 60%;
+    top: 20%;
+    left: calc(-0.15em * 2 - 0.08em * 3);
+    filter: brightness(0.6);
+}
+
+.packageButton span {
+    position: relative;
+    height: 120%;
+    top: -10%;
+    box-sizing: border-box;
+    border: 0.08em solid;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transform: translateX(calc(-0.15em * 3 - 0.08em * 2));
+    transition: 0.3s;
+}
+
+.packageButton:hover span {
+    transform: translateX(0.15em);
+}
+
+@media (max-width: 768px) {
+    .pakageSec{
+        text-align: center;
+    }
+    .text1{
+        font-size: 1.5rem;
+    }
+    .packDes {
+        font-size: 1rem;
+    }
+    .text2 strong,
+    .packageStar {
+        font-size: 1.2rem;
+    }
+}

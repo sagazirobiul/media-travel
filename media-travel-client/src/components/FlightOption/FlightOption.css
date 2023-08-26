@@ -1,0 +1,51 @@
+.card-sl {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0;
+    border-bottom: 2px solid #ebebeb;
+}
+.card-heading {
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    padding: 10px 15px;
+}
+
+.card-text {
+    padding: 10px 15px;
+    background: #fff;
+    font-size: 20px;
+    color: #000;
+}
+.card-text .dolar{
+    color: #00BFA6;
+}
+.card-person {
+    padding: 0 15px;
+    background: #fff;
+    font-size: 14px;
+    color: rgb(54, 53, 53);
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #00BFA6;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.card-button:hover {
+    text-decoration: none;
+    background-color: #00BFA6;
+    color: #fff;
+
+}

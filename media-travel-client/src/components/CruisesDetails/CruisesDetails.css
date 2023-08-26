@@ -1,0 +1,53 @@
+.cruisesDetailsForm {
+    background-color: #f3f3f3;
+    padding: 25px 25px;
+    border-bottom: 3px solid #00BFA6;
+    margin-bottom: 1rem;
+}
+.cruisesDetailsForm h3 {
+    font-weight: 600;
+    color: #01726a;
+    font-size: 18px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.cruisesDetailsForm .similar {
+    color: #464646;
+    font-style: italic;
+}
+.bookingNowBtn {
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: #008876;
+    transition: 0.3s;
+}
+
+.bookingNowBtn:hover {
+    background: #00BFA6;
+}
+
+.cruisesLeftHeader h2, 
+.cruisesLeftHeader p {
+    margin: 0;
+    padding: 0;
+}
+
+.cruisesDetailImg {
+    height: 250px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.detailsDes {
+    color: #5e5e5e;
+    font-size: 1rem;
+    margin-bottom: 0;
+}

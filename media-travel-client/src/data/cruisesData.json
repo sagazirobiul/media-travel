@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/r4PqxHS/popular01.jpg",
+        "title": "Bahamas",
+        "subTitle": "7Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-16reviews"        
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/qW4dk0s/popular02.jpg",
+        "title": "Greece",
+        "subTitle": "6Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-25reviews"        
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/r0M2MHd/popular03.jpg",
+        "title": "Mediterraneam",
+        "subTitle": "18Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-28reviews"        
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/r4PqxHS/popular01.jpg",
+        "title": "Bahamas",
+        "subTitle": "7Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-16reviews"        
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/qW4dk0s/popular02.jpg",
+        "title": "Greece",
+        "subTitle": "6Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-25reviews"        
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/r0M2MHd/popular03.jpg",
+        "title": "Mediterraneam",
+        "subTitle": "18Night tour",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus debitis rem sequi neque placeat, nihil nam ratione quam ipsam.",
+        "reviews": "-28reviews"        
+    }
+]

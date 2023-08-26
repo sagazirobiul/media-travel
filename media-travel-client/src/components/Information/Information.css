@@ -1,0 +1,30 @@
+#info .infoSec {
+    margin: 0 auto;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+
+#info .secHeader {
+    font-weight: 600;
+    padding: 0.3rem 0;
+    font-size: 2.5rem;
+}
+
+#info .secParagrap {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* @media (max-width: 767px) {
+    #info .secHeader {
+        font-size: 1.8rem;
+    }
+    
+    #info .secParagrap {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+} */

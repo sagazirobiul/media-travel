@@ -1,0 +1,34 @@
+.sideBarItem {
+    background-color: #F3F3F3;
+    padding: 0.8rem;
+    margin: 0.2rem 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sideBarItem:hover {
+    color: #00bfa6;
+}
+
+.sideBarItem h5 {
+    font-size: 1.1rem;
+}
+
+.sideFormItem {
+    background-color: #FAFAFA;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #00bfa6;
+}
+
+.cruisesShortForm {
+    background-color: #FAFAFA;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid transparent;
+}
+
+.cruisesShortForm h6 {
+    white-space: nowrap;
+    margin-right: 5px;
+}

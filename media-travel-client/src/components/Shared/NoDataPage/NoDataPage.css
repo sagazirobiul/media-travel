@@ -1,0 +1,39 @@
+.noDataPage {
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.noDataPage .noDataHeader {
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.noDataPage img {
+    width: 200px;
+}
+
+.noDataPage .seeAllData {
+    color: #999;
+}
+
+.reloadDataBtn {
+    outline: none;
+    border: none;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 0.4rem;
+    transition: 0.3s;
+    background: #01BFA6;
+    border: 1px solid transparent;
+}
+
+.reloadDataBtn:hover {
+    border: 1px solid #01BFA6;
+    background: #fff;
+    color: #01BFA6;
+}

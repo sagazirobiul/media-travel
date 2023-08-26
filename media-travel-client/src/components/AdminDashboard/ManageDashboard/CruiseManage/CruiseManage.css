@@ -1,0 +1,17 @@
+.dltBtn{
+    background: #eb2300;
+    padding: 13px 36px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.dltBtn:hover{
+    background: #bd1c00;
+}

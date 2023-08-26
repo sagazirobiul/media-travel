@@ -1,0 +1,132 @@
+.blogPage {
+	margin-bottom: 7rem;
+}
+
+.category-title{
+	position: relative;
+    color: rgb(36, 32, 32);
+	font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.category-links a{
+	padding: 10px 0;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+	margin: 0.3rem 0;
+	color: rgb(0, 0, 0);
+	display: block;
+	transition: color 0.5s ease-in-out;
+   text-decoration:none;
+}
+.category-links a:hover{
+	color: #01BFA6;
+}
+
+.blogCard {
+	box-shadow: 0 4px 5px 0 rgb(0 0 0 / 0%), 0 6px 10px 0 rgb(0 0 0 / 19%);
+	border: none;
+	margin: 0.6rem 0;
+	min-height: 350px;
+}
+
+.blogCardImg {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.blogCardTitle {
+	font-size: 1rem!important;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.writerTitle {
+	font-weight: bold;
+	font-size: 0.9rem;
+	margin: 0.5rem 0;
+	display: block;
+}
+
+.writerName {
+	color: #01BFA6;
+}
+
+.blogSeeBtn {
+	font-size: 0.8rem;
+	background: #01BFA6;
+	border: none !important;
+	color: white;
+	transition: all 0.3s;
+}
+
+.blogSeeBtn:hover {
+	background: #03a58f;
+	color: white;
+}
+
+.blogDetailsImg {
+	height: 300px;
+}
+
+.blogDetailsHeader {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 1rem 0;
+}
+
+.blogDetailsDes {
+	padding: 0 2rem;
+}
+
+.brnColor,
+.page-link {
+	color: #01BFA6!important;
+}
+
+.page-item.active .page-link {
+	background-color: #01BFA6!important;
+	border-color: #01BFA6!important;
+	color: #fff!important;
+}
+
+.commentBoxUser img, 
+.commentCardImg {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.leaveCommentTitle {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-top: 3rem;
+}
+
+.commentPostCard {
+	padding: 2rem 1.5rem;
+	border-radius: 1rem;
+	margin: 1rem 0 2rem;
+}
+
+.leatestCommentTitle {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-top: 3rem;
+	text-align: left;
+}
+
+.commentCard {
+	box-shadow: 1px 0 20px rgb(0 0 0 / 10%);
+	padding: 1rem;
+	border-radius: 0.3rem;
+	margin: 1rem 0;
+	background: #fff;
+}
+
+.commentCard p {
+	margin: 1rem 0;
+}

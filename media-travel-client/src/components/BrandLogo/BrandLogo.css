@@ -1,0 +1,19 @@
+.horizental{
+	display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.brands{
+	margin: 100px auto;
+
+}
+.brands img{
+	width: 80%;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.brands img:hover{
+	filter:grayscale(0)
+}

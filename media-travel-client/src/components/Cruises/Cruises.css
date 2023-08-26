@@ -1,0 +1,53 @@
+#cruises {
+    background: #f3fffe;
+}
+
+.hCruisesReviewCart {
+    box-shadow: 1px 0 20px rgb(0 0 0 / 10%);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    background: #fff;
+    margin-top: 2rem;
+}
+
+.hCruisesDes {
+    color: #959595;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.hCruisesTitle {
+    padding: 0.5rem 1rem 0;
+}
+
+.hCruisesTitle h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+
+#cruises cart:hover{    
+    border-bottom: 2px solid red;
+}
+#cruises .tour{
+    color: red;
+}
+button{
+    background: #00BFA6;
+}
+.review-icon{
+    color: rgb(245, 193, 61);
+    cursor: pointer;
+}
+.review span{
+    color: #959595;
+}
+.cartBtn{
+    background: #00A99D;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}

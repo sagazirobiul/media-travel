@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.sideBox{
+    height: 100%;
+}
+
+#sideNavbar {
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+#sideNavbar ul {
+   margin: 0;
+   padding: 0.5rem 0 0.5rem 2rem;
+   list-style: none;
+}
+#sideNavbar ul li a {
+    padding: 0.6rem 0.8rem;
+    display: block;
+    font-size: 1.1rem;
+    color: #878787;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+}
+#sideNavbar ul li a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #EFF2F7;
+}
+
+#sideNavbar ul li {
+    font-size: 25px;
+    width: 100%;
+    color: transparent;
+    border-left: none;
+    position: relative;
+    margin-top: 0;
+}
+
+
+.activePage{
+    color: #000!important;
+    background-color: #00bfa81a!important;
+    border-left: 3px solid #00BFA6!important;
+}
+.activePage:hover {
+    color: #000!important;
+    background-color: #00bfa81a!important;
+    border-left: 3px solid #00BFA6!important;
+}
+.iconC {
+    margin-right: 5px;
+}
+
+.sideBrand {
+    color: #000;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sideBrand h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}

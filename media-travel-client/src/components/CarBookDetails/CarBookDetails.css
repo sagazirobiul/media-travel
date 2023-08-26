@@ -1,0 +1,25 @@
+.details-form{
+    background-color: #f3f3f3;
+}
+.details-form h5{
+    color: #01762A;
+}
+#car-details h3{
+    color: #464646;
+}
+#car-details label, p, li, small{
+    color: #959595;
+    text-align: justify;
+}
+.facilities{
+    background: #1cbbb4;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+.comment, .booking{
+    background: #1cbbb4;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: none;
+}
