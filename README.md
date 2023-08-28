@@ -1,6 +1,6 @@
 # media-travel
 <h2>This is a team project</h2>
-<p>Porject description</p>
+<p>Porject description:</p>
 <ul>
   <li>A complete travel agency web application with dynamic services.</li>
   <li>Users can order services, monitor their order list, read blogs, and write a comment.</li>
